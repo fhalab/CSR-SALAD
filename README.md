@@ -2,7 +2,13 @@
 
 **Cofactor Specificity Reversal - Semi-Automated Library Design**
 
+[![GitHub](https://img.shields.io/badge/GitHub-fhalab%2FCSR--SALAD-blue)](https://github.com/fhalab/CSR-SALAD)
+
 A computational tool for designing site-directed mutagenesis libraries to reverse cofactor specificity in NAD(P)-dependent enzymes.
+
+## Repository
+
+https://github.com/fhalab/CSR-SALAD
 
 ## Overview
 
@@ -25,7 +31,13 @@ CSR SALAD analyzes protein-cofactor binding sites from PDB structures and design
 
 ### Option 1: Using Conda (Recommended)
 
-1. Clone or download this repository
+1. Clone this repository:
+
+```bash
+git clone https://github.com/fhalab/CSR-SALAD.git
+cd CSR-SALAD
+```
+
 2. Create the conda environment from the provided file:
 
 ```bash
@@ -46,14 +58,21 @@ jupyter lab
 
 ### Option 2: Using pip
 
-1. Ensure you have Python 3.8+ installed
-2. Install dependencies:
+1. Clone this repository:
+
+```bash
+git clone https://github.com/fhalab/CSR-SALAD.git
+cd CSR-SALAD
+```
+
+2. Ensure you have Python 3.8+ installed
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Launch JupyterLab:
+4. Launch JupyterLab:
 
 ```bash
 jupyter lab
@@ -62,6 +81,15 @@ jupyter lab
 ### Option 3: Development Installation
 
 For development or if you want to install as a package:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/fhalab/CSR-SALAD.git
+cd CSR-SALAD
+```
+
+2. Install in editable mode:
 
 ```bash
 pip install -e .
@@ -200,4 +228,4 @@ California Institute of Technology
 
 ## Support
 
-For questions, issues, or suggestions, please open an issue on the GitHub repository or contact the author.
+For questions, issues, or suggestions, please open an issue on the [GitHub repository](https://github.com/fhalab/CSR-SALAD/issues).

@@ -18,7 +18,7 @@ setup(
     description="Computational tool for designing mutagenesis libraries to reverse NAD(P) cofactor specificity",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/fhalab/CSR-SALAD",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -55,7 +55,8 @@ setup(
     },
     keywords="protein engineering, cofactor specificity, mutagenesis, NAD, NADP, library design",
     project_urls={
-        "Bug Reports": "",
-        "Source": "",
+        "Bug Reports": "https://github.com/fhalab/CSR-SALAD/issues",
+        "Source": "https://github.com/fhalab/CSR-SALAD",
+        "Documentation": "https://github.com/fhalab/CSR-SALAD#readme",
     },
 )
